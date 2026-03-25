@@ -86,3 +86,13 @@ pages.forEach((_, index) => {
     }, 500);
   }, (index + 1) * 200 + 2100);
 });
+function toggleEmail(e) {
+  e.preventDefault();
+  document.getElementById('emailPopup').classList.toggle('show');
+}
+
+document.addEventListener('click', function(e) {
+  if (!document.querySelector('.email-wrapper').contains(e.target)) {
+    document.getElementById('emailPopup').classList.remove('show');
+  }
+});
