@@ -522,19 +522,35 @@ body {
   font-size: 0.8rem;
   line-height: 1.4;
 }
+.skills-content .content span img {
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: contain;
+}
+
 .skills-content .content span {
-  width: 6rem;
-  height: 4rem;
+  width: 4.5rem;
+  height: 3.8rem;
   font-size: 0.75rem;
+  font-weight: 600;
+  gap: 0.2rem;
 }
 
 .skills-content .content span i {
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+.skills-box {
+  gap: 0.6rem;
+}
+
+.skills-content .content {
+  gap: 0.4rem;
 }
 
 .skills-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
 }
 
 .skills-box {
@@ -553,6 +569,7 @@ body {
 .services-content .btn {
   margin-top: auto;
 }
+
 .email-popup {
   display: none;
   position: absolute;
