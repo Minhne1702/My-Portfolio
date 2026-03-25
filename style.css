@@ -553,3 +553,18 @@ body {
 .services-content .btn {
   margin-top: auto;
 }
+.email-popup {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 14px;
+  white-space: nowrap;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.email-popup.show { display: flex; align-items: center; gap: 10px; }
